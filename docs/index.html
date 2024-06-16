@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html class="scroll-smooth" lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +7,55 @@
     <title>Jan Panzenberger</title>
 </head>
 <body class="bg-dark text-white font-nunito text-[18px]">
-    <nav></nav>
+    <!--NAVIGACE-->
+    <nav class="flex justify-center p-[10px] border-b-[1px] border-white10 fixed bg-dark w-[100vw]">
+        <ul class="flex gap-[40px] text-gray">
+            <a href="#about-me"><li class="hover:text-white transition-all ease-in-out">O mně</li></a>
+            <a href="#skills"><li class="hover:text-white transition-all ease-in-out">Skills</li></a>
+            <a href="#projects"><li class="hover:text-white transition-all ease-in-out">Práce</li></a>
+            <a href="#offer"><li class="hover:text-white transition-all ease-in-out">Nabídka</li></a>
+            <a href="#contact"><li class="hover:text-white transition-all ease-in-out">Kontakt</li></a>
+        </ul>
+    </nav>
+
     <!--HEADER SEKCE-->
-    <header class="flex flex-col justify-end gap-[20px] p-[40px] border-b-[1px] border-white10 h-[50vh] bg-colors" style="background-image: url(assets/colors-czerwinski.jpg); background-size: cover;">
+    <header class="flex flex-col justify-end gap-[20px] p-[40px] border-b-[1px] border-white10 h-[60vh] bg-colors" style="background-image: url(assets/colors-czerwinski.jpg); background-size: cover;">
         <h1 class="text-[72px] uppercase font-light flex flex-col gap-[20px] leading-[100%] tracking-wider">
             <span class="w-fit px-[20px] py-[10px] bg-dark rounded-[20px] border-[1px] border-white10">Co budeme</span>
             <span class="w-fit px-[20px] py-[10px] bg-dark rounded-[20px] border-[1px] border-white10">stavět?</span>
         </h1>
         <div class="flex justify-between">
             <div class="flex bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center gap-[20px]">
-                <img src="assets/linkedin.svg" alt="LinkedIn link icon">
-                <img src="assets/github.svg" alt="GitHub link icon">
+                <a href="https://www.linkedin.com/in/jan-panzenberger-789634277/" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn link icon"></a>
+                <!--<img src="assets/github.svg" alt="GitHub link icon">-->
             </div>
             <div class="flex gap-[20px]">
+                <!--
                 <div class="flex bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center">
                     <img src="assets/scroll.svg" alt="scroll">
                 </div>
-                <div class="flex bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center gap-[20px] text-[24px]">
-                    <img src="assets/download.svg" alt="download icon">
-                    Stáhnout CV
+                !-->
+                <div class="bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center text-[24px]">
+                    <a class="flex gap-[20px]" href="assets/cv_panzenberger.pdf" target="_blank" download="">
+                        <img src="assets/download.svg" alt="download icon">
+                        Stáhnout CV
+                    </a>
                 </div>
             </div>
         </div>
     </header>
 
     <!--SEKCE O MNĚ-->
-    <div class="flex flex-col p-[40px] items-center">
+    <div class="flex flex-col p-[40px] items-center scroll-m-[40px]" id="about-me">
         <div class="flex flex-col p-[40px] gap-[40px] border-[1px] border-white10 rounded-[20px] w-[1000px] items-center">
             <img src="assets/panzani.jpeg" alt="Fotka" class="rounded-full border-[1px] border-white10 w-[72px]">
             <p class="text-center text-[24px] w-[55%]">Jmenuju se Honza. Jsem programátor a designer z Havířova. Programuju, designuju, debatuju o tom jak zlepšit Váš projekt a to ne pouze z hlediska kódu.</p>
-            <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold">Polib nám prdel Honzo</button>
+            <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold" href="#offer">Co nabízím?</a>
         </div>
     </div>
 
     <!--SEKCE PROJEKTY-->
-    <div class="flex flex-col items-center gap-[40px]">
+    <div class="flex flex-col items-center gap-[40px] scroll-m-[60px]" id="projects">
         <div class="grid grid-cols-2 gap-[40px] w-[1000px] m-auto">
             <div class="border-[1px] border-white10 rounded-[20px] px-[30px] py-[20px] gap-[10px] flex flex-col">
                 <h2 class="text-[24px]">E-shop s minerálními filtry</h2>
@@ -60,11 +74,11 @@
                 <p>Framer</p>
             </div>
         </div>
-        <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit">Polib nám prdel Honzo</button>
+        <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit" href="https://contra.com/jan_td99jhvq" target="_blank">Contra profil</a>
     </div>
 
     <!--SEKCE MOJE SKILLS-->
-    <div class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10">
+    <div class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10" id="skills">
         <div class="flex flex-col gap-[20px] w-[1000px]">
             <h2 class="text-[24px]">Moje skills</h2>
             <p class="w-[50%]">HTML, CSS, JavaScript a Tailwind jsou můj denní chleba. Navrhnu design a uvedu ho do praxe pomocí technologií, které nejlépe vyhovují vám i vašim zákazníkům.</p>
@@ -82,7 +96,7 @@
     </div>
 
     <!--SEKCE NABIDKA-->
-    <div class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10">
+    <div id="offer" class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10" id="offer">
         <div class="flex flex-col gap-[20px] w-[1000px]">
             <h2 class="text-[24px]">Co nabízím?</h2>
             <p class="w-[50%]">Mnoho webařů vám udělá web za pár tisíc, ale často to dopadá tak, že účel webu zanikne nebo údržba stojí víc než samotný web.</p>
@@ -90,37 +104,68 @@
                 <div class="border-[1px] border-white10 rounded-[20px] px-[30px] py-[20px] gap-[10px] flex flex-col">
                     <h3 class="text-[24px]">Potenciál pro růst publika</h2>
                     <p>Web je určený pro vaše zákazníky. Měli bychom si ho představit jako stroj na získávání leadů, proto se pobavíme i o způsobech, jak zaujmout publikum.</p>
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit mt-6">Zjistit více</button>
+                    <div class="flex grow items-end">
+                        <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit mt-6">Zjistit více</button>
+                    </div>
                 </div>
                 <div class="border-[1px] border-white10 rounded-[20px] px-[30px] py-[20px] gap-[10px] flex flex-col">
-                    <h3 class="text-[24px]">Potenciál pro růst publika</h2>
-                    <p>Web je určený pro vaše zákazníky. Měli bychom si ho představit jako stroj na získávání leadů, proto se pobavíme i o způsobech, jak zaujmout publikum.</p>
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold w-fit mt-6">Zjistit více</button>
+                    <h3 class="text-[24px]">Ušetřím Vaše peníze</h2>
+                    <p>Spousta menších byznysů udělá základní chybu v tom, že zvolí nevhodný způsob, jak web postavit. Nechte si poradit, jak zbytečně neutrácet za předražené nástroje.</p>
+                    <div class="flex grow items-end">
+                        <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold w-fit mt-6">Zjistit více</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!--SEKCE S FORMULAREM-->
-    <div class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10" style="background-image: url(assets/colors-czerwinski.jpg); background-size: cover;">
+    <div class="flex flex-col items-center px-[40px] py-[60px] border-b-[1px] border-white10" style="background-image: url(assets/colors-czerwinski.jpg); background-size: cover;" id="contact">
         <div class="flex flex-col gap-[20px] w-[1000px] items-center">
-            <h1 class="text-[36px] uppercase font-light flex flex-col gap-[20px] leading-[100%] tracking-wider">
+            <h2 class="text-[36px] uppercase font-light flex leading-[100%] tracking-wider">
                 <span class="w-fit px-[20px] py-[10px] bg-dark rounded-[20px] border-[1px] border-white10">Máte dotaz?</span>
-            </h1>
-            <form action="" class="flex flex-col gap-[20px] py-[20px] w-[1000px]">
+            </h2>
+            <div class="flex gap-[10px]">
+                <p class="text-[16px] font-light flex gap-[20px] leading-[100%] tracking-wider">
+                    <span class="w-fit px-[10px] py-[5px] bg-dark rounded-[12px] border-[1px] border-white10">+420 730 431 691</span>
+                </p>
+                <p class="text-[16px] font-light flex gap-[20px] leading-[100%] tracking-wider">
+                    <span class="w-fit px-[10px] py-[5px] bg-dark rounded-[12px] border-[1px] border-white10">jan@panzenberger.cz</span>
+                </p>
+            </div>
+            <form action="https://submit-form.com/ZeWwYBx5k" class="flex flex-col gap-[20px] py-[20px] w-[1000px]">
                 <label class="hidden" for="name">Vaše jméno:</label>
-                <input class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" type="text" name="name" id="name" placeholder="Vaše jméno">
+                <input class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" type="text" name="name" id="name" placeholder="Vaše jméno" required>
                 <label class="hidden" for="name">Váš e-mail:</label>
-                <input class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" type="text" name="name" id="name" placeholder="Váš e-mail jméno">
+                <input class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" type="text" name="email" id="email" placeholder="Váš e-mail jméno" required>
                 <label class="hidden" for="name">Vaše zpráva:</label>
-                <textarea class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" name="message" id="message" placeholder="Vaše zpráva"></textarea>
+                <textarea class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" name="message" id="message" placeholder="Vaše zpráva" required></textarea>
                 
                 <div class="flex flex-row gap-[20px]">
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold w-fit">Zjistit více</button>
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit">Zjistit více</button>
+                    <button type="submit" class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold w-fit flex gap-[10px] items-center"><img src="assets/send.svg" alt="paper plane icon">Odeslat</button>
+                    <!-- <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green w-fit flex gap-[10px]"><img src="assets/calendar.svg" alt="calendar icon">Zjistit více</button> -->
                 </div>
             </form>
         </div>
     </div>
+
+    <!--FOOTER-->
+    <footer class="flex flex-col items-center px-[10px] py-[60px] gap-[40px]">
+        <h2 class="text-[36px] uppercase font-light flex leading-[100%] tracking-wider">
+            <span class="w-fit px-[20px] py-[10px] bg-dark rounded-[20px] border-[1px] border-white10">Jan Panzenberger</span>
+        </h2>
+        <div class="flex flex-row gap-[40px]">
+            <div class="flex bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center gap-[20px]">
+                <a href="https://www.linkedin.com/in/jan-panzenberger-789634277/" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn link icon"></a>
+                <!--<img src="assets/github.svg" alt="GitHub link icon">-->
+            </div>
+            <div class="bg-dark border-[1px] border-white10 py-[10px] px-[16px] rounded-[12px] items-center text-[24px]">
+                <a class="flex gap-[20px]" href="assets/cv_panzenberger.pdf" target="_blank" download="">
+                    <img src="assets/download.svg" alt="download icon">
+                    Stáhnout CV
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
