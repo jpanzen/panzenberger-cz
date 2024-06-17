@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "dark": "#161616",
         "green": "#096264",
-        "green100": "009598",
+        "green100": "#009598",
         "gold": "#8C673B",
         "gold100": "#DB9D54",
         "white10": "rgba(255, 255, 255, 0.1)",
