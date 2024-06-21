@@ -1,0 +1,23 @@
+---
+title: Blog
+layout: "base.njk"
+---
+
+<!--BLOG-->
+<div class="flex flex-col items-center px-[20px] md:px-[40px] py-[60px] pt-[120px] border-b-[1px] border-white10" id="skills">
+    <div class="flex flex-col gap-[20px] w-[1000px] max-w-full">
+        <h1 class="text-[24px]">Blog</h1>
+        <p class="md:w-[50%]">Lorem ipsum dolor sit amet</p>
+        
+        <ul class="flex flex-col gap-[40px]">
+            {%- for post in collections.post -%}
+                <li class="border-[1px] border-white10 px-[30px] py-[20px] rounded-[20px]">
+                    <article>
+                        <h2>{{ post.data.title }}</h2>
+                        <p>{{ post.data.description }}</p>
+                    </article>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+</div>
