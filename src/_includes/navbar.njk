@@ -1,5 +1,5 @@
 <!--NAVIGACE-->
-<nav class="flex flex-col justify-between items-center border-b border-white10 fixed bg-dark w-full z-50 p-4">
+<nav class="flex flex-col md:flex-row justify-between items-center border-b border-white10 fixed bg-dark w-full z-50 py-4 px-[40px]">
     <div class="md:hidden flex self-end w-full justify-end">
         <button id="menu-button" class="text-gray focus:outline-none">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -7,19 +7,23 @@
             </svg>
         </button>
     </div>
-    <ul id="menu" class="hidden md:flex md:gap-10 text-gray md:flex-row md:items-center">
-        <a href="/#about-me"><li class="hover:text-white transition-all ease-in-out">O mně</li></a>
-        <a href="/#skills"><li class="hover:text-white transition-all ease-in-out">Skills</li></a>
-        <a href="/#projects"><li class="hover:text-white transition-all ease-in-out">Práce</li></a>
-        <a href="/#offer"><li class="hover:text-white transition-all ease-in-out">Nabídka</li></a>
-        <a href="/#contact"><li class="hover:text-white transition-all ease-in-out">Kontakt</li></a>
+    <ul id="menu" class="hidden md:flex md:gap-5 text-gray md:items-center">
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/"><li>Domů</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#about-me"><li>O mně</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#skills"><li>Skills</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#projects"><li>Práce</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#offer"><li>Nabídka</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#contact"><li>Kontakt</li></a>
     </ul>
-    <ul id="mobile-menu" class="hidden flex flex-col items-start self-start gap-4 p-[20px] text-gray bg-dark md:hidden">
-        <a href="/#about-me"><li class="hover:text-white transition-all ease-in-out">O mně</li></a>
-        <a href="/#skills"><li class="hover:text-white transition-all ease-in-out">Skills</li></a>
-        <a href="/#projects"><li class="hover:text-white transition-all ease-in-out">Práce</li></a>
-        <a href="/#offer"><li class="hover:text-white transition-all ease-in-out">Nabídka</li></a>
-        <a href="/#contact"><li class="hover:text-white transition-all ease-in-out">Kontakt</li></a>
+    <a class="hidden md:flex py-[2px] px-[20px] bg-dark border-[1px] border-white10 rounded-[12px] items-center md:text-[16px] w-fit text-gray transition duration-150 ease-in-out hover:bg-white10" href="/blog">Blog</a>
+    <ul id="mobile-menu" class="hidden flex flex-col items-start self-start gap-4 py-[20px] text-gray bg-dark md:hidden">
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/"><li>Domů</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#about-me"><li>O mně</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#skills"><li>Skills</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#projects"><li>Práce</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#offer"><li>Nabídka</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#contact"><li>Kontakt</li></a>
+        <a class="py-[2px] mt-[20px] px-[20px] bg-dark border-[1px] border-white10 rounded-[12px] items-center md:text-[16px] w-fit text-gray transition duration-150 ease-in-out hover:bg-white10" href="/blog">Blog</a>
     </ul>
 </nav>
 

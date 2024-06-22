@@ -25,7 +25,7 @@
 
     <!--NAVBAR-->
     <!--NAVIGACE-->
-<nav class="flex flex-col justify-between items-center border-b border-white10 fixed bg-dark w-full z-50 p-4">
+<nav class="flex flex-col md:flex-row justify-between items-center border-b border-white10 fixed bg-dark w-full z-50 py-4 px-[40px]">
     <div class="md:hidden flex self-end w-full justify-end">
         <button id="menu-button" class="text-gray focus:outline-none">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -33,19 +33,23 @@
             </svg>
         </button>
     </div>
-    <ul id="menu" class="hidden md:flex md:gap-10 text-gray md:flex-row md:items-center">
-        <a href="/#about-me"><li class="hover:text-white transition-all ease-in-out">O mně</li></a>
-        <a href="/#skills"><li class="hover:text-white transition-all ease-in-out">Skills</li></a>
-        <a href="/#projects"><li class="hover:text-white transition-all ease-in-out">Práce</li></a>
-        <a href="/#offer"><li class="hover:text-white transition-all ease-in-out">Nabídka</li></a>
-        <a href="/#contact"><li class="hover:text-white transition-all ease-in-out">Kontakt</li></a>
+    <ul id="menu" class="hidden md:flex md:gap-5 text-gray md:items-center">
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/"><li>Domů</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#about-me"><li>O mně</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#skills"><li>Skills</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#projects"><li>Práce</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#offer"><li>Nabídka</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#contact"><li>Kontakt</li></a>
     </ul>
-    <ul id="mobile-menu" class="hidden flex flex-col items-start self-start gap-4 p-[20px] text-gray bg-dark md:hidden">
-        <a href="/#about-me"><li class="hover:text-white transition-all ease-in-out">O mně</li></a>
-        <a href="/#skills"><li class="hover:text-white transition-all ease-in-out">Skills</li></a>
-        <a href="/#projects"><li class="hover:text-white transition-all ease-in-out">Práce</li></a>
-        <a href="/#offer"><li class="hover:text-white transition-all ease-in-out">Nabídka</li></a>
-        <a href="/#contact"><li class="hover:text-white transition-all ease-in-out">Kontakt</li></a>
+    <a class="hidden md:flex py-[2px] px-[20px] bg-dark border-[1px] border-white10 rounded-[12px] items-center md:text-[16px] w-fit text-gray transition duration-150 ease-in-out hover:bg-white10" href="/blog">Blog</a>
+    <ul id="mobile-menu" class="hidden flex flex-col items-start self-start gap-4 py-[20px] text-gray bg-dark md:hidden">
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/"><li>Domů</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#about-me"><li>O mně</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#skills"><li>Skills</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#projects"><li>Práce</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#offer"><li>Nabídka</li></a>
+        <a class="hover:text-white hover:bg-white10 transition-all ease-in-out py-[2px] px-[12px] rounded-[6px]" href="/#contact"><li>Kontakt</li></a>
+        <a class="py-[2px] mt-[20px] px-[20px] bg-dark border-[1px] border-white10 rounded-[12px] items-center md:text-[16px] w-fit text-gray transition duration-150 ease-in-out hover:bg-white10" href="/blog">Blog</a>
     </ul>
 </nav>
 
@@ -62,7 +66,7 @@
 <!--BLOG-->
 <div class="flex flex-col items-center px-[20px] md:px-[40px] py-[60px] pt-[120px] border-b-[1px] border-white10" id="skills">
     <div class="flex flex-col gap-[20px] w-[1000px] max-w-full">
-        <h1 class="text-[36px]">Blog</h1>
+        <h1 class="text-[36px]">Blog (Ve výstavbě)</h1>
         <p class="md:w-[50%]">Lorem ipsum dolor sit amet</p>
         
         <ul class="flex flex-col gap-[40px]"><li class="border-[1px] border-white10 px-[30px] py-[30px] rounded-[20px]">
@@ -74,7 +78,7 @@
                                 <p class="mt-[10px] text-gray">Petr Kozikowski - pátek 21. června 2024</p>
                                 <p>Sed malesuada dictum risus vitae ullamcorper.</p>
                                 <div class="flex h-[100%] items-end">
-                                    <a class="border-[1px] border-white10 py-1 px-2 rounded-[6px] mt-[20px]" href="www.google.com" target="_self">Čtěte dále...</a>
+                                    <a class="white border-[1px] border-white10 py-1 px-[20px] rounded-[12px] mt-[20px]transition duration-150 ease-in-out hover:bg-white10" href="/blog/prispevek-dva/" target="_self">Čtěte dále...</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +92,7 @@
                                 <p class="mt-[10px] text-gray">Jan Panzenberger - pátek 21. června 2024</p>
                                 <p>Nam non nunc quis leo tincidunt volutpat.</p>
                                 <div class="flex h-[100%] items-end">
-                                    <a class="border-[1px] border-white10 py-1 px-2 rounded-[6px] mt-[20px]" href="www.google.com" target="_self">Čtěte dále...</a>
+                                    <a class="white border-[1px] border-white10 py-1 px-[20px] rounded-[12px] mt-[20px]transition duration-150 ease-in-out hover:bg-white10" href="/blog/prispevek-jedna/" target="_self">Čtěte dále...</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +106,7 @@
                                 <p class="mt-[10px] text-gray">Petr Kozlito - pátek 21. června 2024</p>
                                 <p>Ut eu odio lacinia, malesuada sem at, malesuada risus.</p>
                                 <div class="flex h-[100%] items-end">
-                                    <a class="border-[1px] border-white10 py-1 px-2 rounded-[6px] mt-[20px]" href="www.google.com" target="_self">Čtěte dále...</a>
+                                    <a class="white border-[1px] border-white10 py-1 px-[20px] rounded-[12px] mt-[20px]transition duration-150 ease-in-out hover:bg-white10" href="/blog/prispevek-tri/" target="_self">Čtěte dále...</a>
                                 </div>
                             </div>
                         </div>
