@@ -13,8 +13,10 @@
     <link href="/output.css" rel="stylesheet">
     <title>{{ title }}</title>
     <!--SEO meta tagy-->
-    <meta name="description" content="Web development a design znám jak svoje boty. Vytvořím vám web na míru, který naplní potřeby vašeho podnikání.">
-    <meta name="keywords" content="web developer, web designer, web na míru, web development, programátor">
+    <meta name="description" content="{{ description | default('Web development a design znám jak svoje boty. Vytvořím vám web na míru, který naplní potřeby vašeho podnikání.') }}">
+    {% if keywords %}
+        <meta name="keywords" content="{{ keywords }}">
+    {% endif %}
 </head>
 
 <body class="bg-dark text-white font-nunito text-[16px]">
