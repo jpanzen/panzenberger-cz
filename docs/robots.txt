@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://panzenberger.cz/sitemap.xml

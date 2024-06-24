@@ -12,6 +12,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("blog", function(collection) {
     return collection.getFilteredByGlob("blog/*.md");
   });
+
+  // Put robots.txt in root
+  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     
     return {
       dir: {
