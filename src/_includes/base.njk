@@ -29,9 +29,12 @@
     <!--NAVBAR-->
     {% include 'navbar.njk' %}
 
-    <!--OBSAH STRANKY-->
+    <!--COOKIE BANNER-->
+    {% include 'cookie-banner.njk' %}
+
+    <!--OBSAH-->
     {{ content | safe }}
-    
+
     <!--FOOTER-->
     {% include 'footer.njk' %}
 </body>

@@ -62,7 +62,59 @@
     });
 </script>
 
-    <!--OBSAH STRANKY-->
+    <!--COOKIE BANNER-->
+    <div id="cookie-banner" class="fixed flex flex-col bottom-[20px] mx-[20px] bg-dark border-[1px] border-white10 rounded-[12px] gap-[20px] px-[20px] md:px-[40px] py-[20px] md:w-[600px]">
+    <p>Naše webová stránka používá cookies, abychom vám zajistili nejlepší zážitek na našem webu. 
+        <!--<a class="text-gold100" href="/privacy-policy">Více informací</a>.-->
+    </p>
+    <div class="flex flex-row gap-[20px]">
+        <button id="reject-cookies" class="py-[2px] px-[20px] rounded-[6px] items-center md:text-[16px] w-fit text-gray border-[1px] border-white10 transition duration-150 ease-in-out">Nechci cookies</button>
+        <button id="accept-cookies" class="py-[2px] px-[20px] bg-gold100 rounded-[6px] items-center md:text-[16px] w-fit text-dark transition duration-150 ease-in-out">Přijmout</button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const cookieBanner = document.getElementById("cookie-banner");
+    const acceptCookiesButton = document.getElementById("accept-cookies");
+    const rejectCookiesButton = document.getElementById("reject-cookies");
+
+    // Zkontrolujte, zda je souhlas s cookies již uložen
+    if (!getCookie("cookiesAccepted")) {
+        cookieBanner.style.display = "flex";
+    }
+
+    acceptCookiesButton.addEventListener("click", function() {
+        setCookie("cookiesAccepted", "true", 365);
+        cookieBanner.style.display = "none";
+    });
+
+    rejectCookiesButton.addEventListener("click", function() {
+        setCookie("cookiesAccepted", "false", 365);
+        cookieBanner.style.display = "none";
+    });
+
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+});
+</script>
+
+    <!--OBSAH-->
     
 <!--BLOG-->
 <div class="flex flex-col items-center px-[20px] md:px-[40px] py-[60px] pt-[120px] border-b-[1px] border-white10" id="skills">
@@ -115,7 +167,7 @@
                 </li></ul>
     </div>
 </div>
-    
+
     <!--FOOTER-->
     <!--FOOTER-->
 <footer class="flex flex-col items-center px-[10px] py-[60px] gap-[40px]">
