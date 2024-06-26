@@ -15,6 +15,9 @@ module.exports = function(eleventyConfig) {
 
   // Put robots.txt in root
   eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+  
+  // Seznam webmaster
+  
     
     return {
       dir: {
