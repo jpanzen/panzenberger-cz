@@ -19,6 +19,9 @@
     {% if keywords %}
         <meta name="keywords" content="{{ keywords }}">
     {% endif %}
+    {% if isPost %}
+        <link rel="stylesheet" href="/post-styles.css">
+    {% endif %}
 </head>
 
 <body class="bg-dark text-white font-nunito text-[16px]">
