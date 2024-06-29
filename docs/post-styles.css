@@ -1,0 +1,32 @@
+article p, article li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+article li{
+    margin-left: 50px;
+}
+
+article ul{
+    list-style-type: circle;
+}
+
+article ol{
+    list-style-type:decimal;
+}
+
+article h2{
+    font-size: 36px;
+}
+article h3{
+    font-size: 26px;
+}
+
+article h2, article h3{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+article a{
+    text-decoration: underline;
+}
