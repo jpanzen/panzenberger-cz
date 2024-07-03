@@ -607,10 +607,6 @@ video {
   display: none;
 }
 
-.aspect-\[4\/3\]{
-  aspect-ratio: 4/3;
-}
-
 .h-6{
   height: 1.5rem;
 }
