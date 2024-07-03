@@ -783,6 +783,11 @@ video {
   background-image: url('/assets/colors-czerwinski.jpg');
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-\[40px\]{
   padding: 40px;
 }
