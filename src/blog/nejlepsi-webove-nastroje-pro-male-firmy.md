@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/dqj7b3wti/image/upload/v1720013540/thumbnail-w
 imageAlt: thumbnail článku
 ---
 
-V dnešní době máme k dispozici spousty nástrojů, ve kterých si můžeme nechat web sestavit.
+V dnešní době máme k dispozici spoustu nástrojů, ve kterých si můžeme nechat web sestavit.
 
 Který z nich je ale pro mé podnikání nejvhodnější?
 
@@ -20,7 +20,7 @@ Zhodnotím zde:
 - Uživatelskou přívětivost
 - Čemu se rozhodně vyvarovat
 
-Pojďme se na to tedy podívat.          Z tohoto důvodu nedoporučuji se pouštět WordPressu, pokud s ním už nemáte předchozí zkušenosti.
+Pojďme se na to tedy podívat.
 
 1. [**WordPress**](#WordPress) - Populární platforma fungující na modularitě pluginů.
 2. [**Webflow**](#Webflow) - Široce obsáhlá všestranná platforma, která umí tak nějak vše.                
@@ -36,13 +36,13 @@ Pomocí těchto pluginů můžete ve WordPressu vytvořit téměř cokoliv.
 
 Pokud to ale s pluginy přeženete, můžete mít problém s konflikty mezi dvěma různými pluginy a web vám může přestat fungovat. Zároveň některé pluginy, které aplikujete, mohou váš web udělat náchylnější k hackerským útokům.
     
-Z těchto důvodů nedoporučuji se pouštět do WordPressu, pokud s ním už nemáte předchozí zkušenosti.
+Z tohoto důvodu nedoporučuji se pouštět do WordPressu, pokud s ním už nemáte předchozí zkušenosti.
 
 
 
 ### Cena
 
-WordPress je v základu úplně zdarma, nepočítate-li cenu hostingu, který vás v dnešní době může vyjít v průměru na okolo 50 korun za měsíc.
+WordPress je v základu úplně zdarma, nepočítáte-li cenu hostingu, který vás v dnešní době může vyjít v průměru na okolo 50 korun za měsíc.
 
 Mějte na paměti, spousta již zmíněných pluginů fungují na "freemium" platebním modelu, tzn. pluginy můžete využít v jejich free verzi, ta je však často omezená.
 
@@ -60,7 +60,7 @@ Komunita WordPressu je tak velká, že pokud funkce kterou potřebujete, dává 
 
 ### Uživatelská přívětivost
 
-WordPress je platforma, která je na trhu už velmi dlouho a nabízí mnoho funkcí, není tedy snadné se v něm naučit pracovat a složitost uživatelského rozhraní kvůli pluginům spíše přilévá benzín do ohně.
+WordPress je platforma, která je na trhu už velmi dlouho a nabízí mnoho funkcí, není tedy snadné se v něm naučit pracovat, a složitost uživatelského rozhraní kvůli pluginům spíše přilévá benzín do ohně.
 
 Sice to zdaleka není to nejtěžší na trhu, každopádně počítejte s tím, že ze začátku z těch všech pluginů budete poměrně zmateni. Strmější learning curve WordPressu je jednoduše daň za jeho všestrannost a stáří.
 
