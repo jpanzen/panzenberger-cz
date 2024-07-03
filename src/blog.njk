@@ -8,15 +8,15 @@ layout: "base.njk"
 <!--BLOG-->
 <div class="flex flex-col items-center px-[20px] md:px-[40px] py-[60px] pt-[120px] border-b-[1px] border-white10" id="skills">
     <div class="flex flex-col gap-[20px] w-[1000px] max-w-full">
-        <h1 class="text-[36px]">Blog (Ve výstavbě)</h1>
-        <p class="md:w-[50%]">Zatím tu nic moc není, v budoucnu se ale můžete těšit na obsah nabitý informacemi o webdevelopmentu, designu, programování a SEO</p>
+        <h1 class="text-[36px]">Blog</h1>
+        <p class="md:w-[50%]">Moc článku zde zatím není, v budoucnu se ale můžete těšit na obsah nabitý informacemi o webdevelopmentu, designu, programování a SEO</p>
         
         <ul class="flex flex-col gap-[40px]">
             {%- for post in collections.post -%}
                 <li class="border-[1px] border-white10 px-[30px] py-[30px] rounded-[20px]">
                     <article>
                         <div class="flex flex-col md:flex-row gap-[20px]">
-                            <img class="lg:w-1/4 md:w-1/2 object-cover rounded-[12px] border-[1px] border-white10" src="{{ post.data.image }}" alt="neco">
+                            <img class="lg:w-1/4 md:w-1/2 aspect-[4/3] object-cover rounded-[12px] border-[1px] border-white10" src="{{ post.data.image }}" alt="neco">
                             <div class="flex flex-col">
                                 <h2 class="text-[24px]">{{ post.data.title }}</h2>
                                 <p class="mt-[10px] text-gray">{{ post.data.author }} - {{ post.data.date | postDate }}</p>
