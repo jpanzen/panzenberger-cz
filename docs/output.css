@@ -579,11 +579,6 @@ video {
   margin-right: 20px;
 }
 
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -594,6 +589,10 @@ video {
 
 .mt-\[20px\]{
   margin-top: 20px;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
@@ -647,10 +646,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.max-w-2xl{
-  max-width: 42rem;
 }
 
 .max-w-full{
@@ -788,8 +783,9 @@ video {
   background-image: url('/assets/colors-czerwinski.jpg');
 }
 
-.p-4{
-  padding: 1rem;
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-\[40px\]{

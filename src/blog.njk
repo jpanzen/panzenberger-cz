@@ -16,7 +16,7 @@ layout: "base.njk"
                 <li class="border-[1px] border-white10 px-[30px] py-[30px] rounded-[20px]">
                     <article>
                         <div class="flex flex-col md:flex-row gap-[20px]">
-                            <img class="lg:w-1/4 md:w-1/2 rounded-[12px] border-[1px] border-white10" src="{{ post.data.image }}" alt="neco">
+                            <img class="lg:w-1/4 md:w-1/2 object-cover rounded-[12px] border-[1px] border-white10" src="{{ post.data.image }}" alt="neco">
                             <div class="flex flex-col">
                                 <h2 class="text-[24px]">{{ post.data.title }}</h2>
                                 <p class="mt-[10px] text-gray">{{ post.data.author }} - {{ post.data.date | postDate }}</p>
