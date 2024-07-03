@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/dqj7b3wti/image/upload/v1720013540/thumbnail-w
 imageAlt: thumbnail článku
 ---
 
-V dnešním době máme k dispozici spousty nástrojů, ve kterých si můžeme nechat web sestavit.
+V dnešní době máme k dispozici spousty nástrojů, ve kterých si můžeme nechat web sestavit.
 
 Který z nich je ale pro mé podnikání nejvhodnější?
 
