@@ -3,7 +3,7 @@ title: Nejlepší webové nástroje pro malé firmy. Jak si vybrat ten správný
 author: Jan Panzenberger
 date: 2024-06-26
 description: V dnešní době máme k dispozici spoustu nástrojů, ve kterých se dá dělat web pro váš portfoliový či firemní web. Který z nich je ale pro mé podnikání nejvhodnější?
-keywords: webové nástroje pro malé firmy, tvorba firemního webu, porovnání webových platforem, WordPress vs Webflow vs Framer vs Wix, výběr nástroje pro tvorbu webu, cena a uživatelská přívětivost webových nástrojů, statické generátory stránek (SSG)
+keywords: webové nástroje, webové nástroje pro malé firmy, tvorba firemního webu, porovnání webových platforem, WordPress vs Webflow vs Framer vs Wix, výběr nástroje pro tvorbu webu, cena a uživatelská přívětivost webových nástrojů, statické generátory stránek (SSG)
 image: https://res.cloudinary.com/dqj7b3wti/image/upload/v1720013540/thumbnail-webove-nastroje_vtizb4.webp
 imageAlt: thumbnail článku
 ---
