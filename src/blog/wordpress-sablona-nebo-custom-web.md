@@ -1,5 +1,5 @@
 ---
-title: Klasická WordPress šablona nebo custom web? Co si vybrat v roce 2024?
+title: Webové šablony vs. vlastní design. Co je pro vás lepší?
 author: Jan Panzenberger
 date: 2024-07-09
 description: WordPress šablona je ikonickým pojmem ve světě webů. Nicméně svět webů se neustále vyvíjí a vyvíjí se rychle, tak si pojďmě ukázat, jaké jsou rostoucí trendy ve světě web developmentu.
