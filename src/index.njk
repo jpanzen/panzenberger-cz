@@ -35,8 +35,11 @@ layout: "base.njk"
 <div class="flex flex-col pt-[60px] pb-[40px] px-[20px] md:px-[40px] items-center scroll-m-[40px]" id="about-me">
     <div class="flex flex-col p-[40px] gap-[40px] border-[1px] border-white10 rounded-[20px] w-[1000px] max-w-full items-center">
         <img src="/assets/panzani.webp" alt="Fotka" class="rounded-full border-[1px] border-white10 w-[72px]">
-        <p class="text-center text-[24px] md:w-[55%]">Jmenuju se Honza. Jsem programátor a webdesigner z Havířova. Tohle je můj vlastní kousek internetu, kde se rozkecávám o tom co mě baví a v čem jsem dobrý.</p>
-        <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100" href="#offer">Co nabízím?</a>
+        <div class="gap-[20px] flex flex-col items-center">
+            <p class="text-center text-[24px] md:w-[55%]">Jmenuju se Honza. Jsem programátor a webdesigner z Havířova.</p>
+            <p class="text-center text-[24px] md:w-[55%]"> Umím dělat moderní a responzivní weby a appky. Mojí prioritou je maximální kvalita a spolehlivost.</p>
+        </div>
+        <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100 font-bold" href="#offer">Co nabízím?</a>
     </div>
 </div>
 
@@ -68,7 +71,7 @@ layout: "base.njk"
             </div>
         </a>
     </div>
-    <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green100 w-fit" href="https://contra.com/jan_td99jhvq" target="_blank">Contra profil</a>
+    <a class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green100 w-fit font-bold" href="https://contra.com/jan_td99jhvq" target="_blank">Contra profil</a>
 </div>
 
 <!--SEKCE MOJE SKILLS-->
@@ -99,14 +102,14 @@ layout: "base.njk"
                 <h3 class="text-[24px]">Potenciál pro růst publika</h3>
                 <p>Web by měl sloužit jako nástroj pro získávání zákazníků. Proto se budeme věnovat i způsobům, jak pomocí webu zaujmout.</p>
                 <div class="flex grow items-end">
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green100 w-fit mt-6">Zjistit více</button>
+                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green100 w-fit mt-6 font-bold">Zjistit více</button>
                 </div>
             </div>
             <div class="border-[1px] border-white10 rounded-[20px] px-[30px] py-[20px] gap-[10px] flex flex-col w-full">
                 <h3 class="text-[24px]">Ušetřím Vaše peníze</h3>
                 <p>Spousta menších firem udělá chybu v tom, že zvolí nevhodný způsob, jak web postavit. Nechte si poradit, jak ho vytvořit co nejefektivněji - ušetříte si nervy i peníze.</p>
                 <div class="flex grow items-end">
-                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100 w-fit mt-6">Zjistit více</button>
+                    <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100 w-fit mt-6 font-bold">Zjistit více</button>
                 </div>
             </div>
         </div>
@@ -136,7 +139,7 @@ layout: "base.njk"
             <textarea class="px-[16px] py-[12px] rounded-[12px] border-[1px] border-white10 bg-dark outline-none placeholder-gray" name="message" id="message" placeholder="Co si představujete?" required></textarea>
             
             <div class="flex flex-row gap-[20px]">
-                <button type="submit" class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100 w-fit flex gap-[10px] items-center"><img src="/assets/send.svg" alt="paper plane icon">Odeslat</button>
+                <button type="submit" class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-gold100 w-fit flex gap-[10px] items-center font-bold"><img src="/assets/send.svg" alt="paper plane icon">Odeslat</button>
                 <!-- <button class="text-dark text-[18px] px-[16px] py-[8px] rounded-[12px] bg-green100 w-fit flex gap-[10px]"><img src="/assets/calendar.svg" alt="calendar icon">Zjistit více</button> -->
             </div>
         </form>
