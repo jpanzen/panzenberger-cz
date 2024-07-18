@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://panzenberger.cz/blog/</loc>
-            <lastmod>2024-06-21T22:03:15.440Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://panzenberger.cz/</loc>
-            <lastmod>2024-06-21T22:03:15.445Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://panzenberger.cz/blog/nejlepsi-webove-nastroje-pro-male-firmy/</loc>
             <lastmod>2024-06-26T00:00:00.000Z</lastmod>
         </url>
     
         <url>
-            <loc>https://panzenberger.cz/blog/wordpress-sablona-nebo-custom-web/</loc>
+            <loc>https://panzenberger.cz/blog/webova-sablona-vs-vlastni-web/</loc>
             <lastmod>2024-07-09T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://panzenberger.cz/blog/</loc>
+            <lastmod>2024-07-18T01:56:32.293Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://panzenberger.cz/</loc>
+            <lastmod>2024-07-18T01:56:32.293Z</lastmod>
         </url>
     
 </urlset>
