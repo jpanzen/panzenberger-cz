@@ -52,7 +52,7 @@ Proto vám doporučuji se podívat na zmíněný[wix](https://wix.com).
 
 Wix je intuitivní nástroj, ve kterém můžete mít web připravený za pár hodin.
 
-Pokud stejně chcete web ve WordPressu, doporučil bych ho sestavit v block-builderu jako je [Breakdance](https://breakdance.com/) nebo [Elementor](elementor.com).
+Pokud stejně chcete web ve WordPressu, doporučil bych ho sestavit v block-builderu jako je [Breakdance](https://breakdance.com/) nebo [Elementor](https:/elementor.com).
 
 V minulosti byly classic themes poměrně dobré řešení, nicméně tato doba je dávno pryč a z mého pohledu už asi neexistuje případ, kdy by se zakoupení classic šablony vyplatilo.
 
