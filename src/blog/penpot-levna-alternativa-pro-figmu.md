@@ -1,5 +1,5 @@
 ---
-title: "Penpot - zdarma alternativa Figmy s developer mindsetem."
+title: "Penpot jako alternativa Figmy: Stojí za to?"
 author: Jan Panzenberger
 date: 2024-07-25
 description: Figma je oblíbený industry standard pro prototypování, ale po Figmy společnost Adobe nasazuje nepříjemně rostoucí ceny. Penpot je zdarma a open-source alternativa, která může být zajímavou volbou pro designery či vývojáře.
